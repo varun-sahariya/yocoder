@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-size: 14px; /* You can adjust this value as needed */
+        }
+
+        .navbar {
+            font-size: 14px; /* Adjust the font size of the navbar */
+        }
+
+        /* Add similar rules for other elements as needed */
+    </style>
+
+    <title>Your Blog</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class a="nav-link" href="/about.html">trending</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.geeksforgeeks.org/top-tech-blogs-for-latest-tech-updates/">technology</a>
+                        <a class="dropdown-item" href="https://www.geeksforgeeks.org/category/guestblogs/">coding</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://blog.bit.ai/top-technology-blogs/">many more tech </a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">login</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#signUpModal">signUp</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Rest of your blog page content here -->
+    <header class="jumbotron">
+        <h1 class="display-4">"From Novice to Ninja: Your Guide to Python Programming"</h1>
+        <p class="lead">Posted on <span class="text-muted">November 15, 2023</span> by <span class="text-muted">Author Name</span></p>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="https://source.unsplash.com/random/1920x1080/?Python Programming" class="img-fluid" alt="Blog Image">
+                <p>
+                    Python is one of the most popular and versatile programming languages today. It's known for its simplicity, readability, and vast range of applications, from web development and data analysis to artificial intelligence and automation. In this comprehensive class, we'll guide you through the fundamental concepts and techniques of Python programming, providing you with a solid foundation for your coding journey.
+
+                </p>
+                <p>
+                  
+Introduction to Python: Get acquainted with the basics of Python syntax, data types, variables, and operators. Learn how to write your first Python programs and gain hands-on experience through interactive coding exercises.
+                </p>
+                <p>
+                
+Data Structures: Explore essential data structures like lists, tuples, dictionaries, and sets. Understand their properties, manipulation techniques, and how to leverage them for various programming tasks.
+                </p>
+                <p>
+                    Control Flow and Functions: Dive deeper into Python's control structures, including conditionals and loops. Discover the power of functions and modular programming, enabling you to write reusable and efficient code.
+
+                </p>
+                <p>
+                    File Handling and I/O Operations: Learn how to read from and write to files using Python. Master the art of input/output operations, opening up endless possibilities for data processing and manipulation.
+                </p>
+                <p>
+
+                    Introduction to Object-Oriented Programming (OOP): Delve into the principles of OOP using Python. Discover classes, objects, inheritance, and other key concepts that make Python a versatile and object-oriented language.
+
+                </p>
+                <p>
+                    Intermediate Python Concepts: Gain proficiency in advanced topics such as error handling, regular expressions, modules, and packages. Broaden your programming skills and explore Python's extensive library ecosystem.
+
+                </p>
+                <!-- Add more content as needed -->
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Recent Posts</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Post 1</li>
+                        <li class="list-group-item">Post 2</li>
+                        <li class="list-group-item">Post 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>© 2022-2023 yocoder, Inc. · <a href="/privacy.html">Privacy</a> · <a href="/terms&condition.html">Terms</a></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
